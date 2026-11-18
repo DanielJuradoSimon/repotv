@@ -1,15 +1,15 @@
 # Estado de la lista
 
-Actualizado: `2026-11-17T20:11:05+00:00`
+Actualizado: `2026-11-18T13:04:47+00:00`
 
 - Canales solicitados: **62**
 - Canales con al menos una fuente: **39**
-- Fuentes totales incluidas: **84**
+- Fuentes totales incluidas: **83**
 
 ## Fuentes encontradas
 
 - La 1: 2
-- La 2: 3
+- La 2: 2
 - 24h: 3
 - Teledeporte: 2
 - Clan: 4
@@ -89,19 +89,19 @@ Actualizado: `2026-11-17T20:11:05+00:00`
 
 - Modo: hls_manifest_and_segment
 - Comprobados (manifiesto y fragmento): 58
-- Conservados por restricción geográfica, sin comprobar: 26
-- Descartados: 38
+- Conservados por restricción geográfica, sin comprobar: 25
+- Descartados: 39
 
 - La 1 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
 - La 1 (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - La 1 (IPTV-org España): Descartado — HTTP Error 403: Forbidden
 - La 2 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
-- La 2 (IPTV-org España): Conservado por geobloqueo — HTTP Error 403: Geoblock
+- La 2 (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Antena 3 (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Antena 3 (Free-TV España): Descartado — <urlopen error [Errno 111] Connection refused>
 - Cuatro (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Telecinco (Free-TV España): Descartado — HTTP Error 400: Bad Request
-- laSexta (IPTV-org España): Descartado — La respuesta no es un manifiesto HLS
+- laSexta (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - laSexta (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - laSexta (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Teledeporte (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
@@ -113,11 +113,11 @@ Actualizado: `2026-11-17T20:11:05+00:00`
 - Energy (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Divinity (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Be Mad (Free-TV España): Descartado — HTTP Error 403: Forbidden
-- Neox (IPTV-org España): Descartado — La respuesta no es un manifiesto HLS
+- Neox (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Neox (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Neox (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Mega (Free-TV España): Descartado — HTTP Error 400: Bad Request
-- Atreseries (IPTV-org España): Descartado — La respuesta no es un manifiesto HLS
+- Atreseries (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Atreseries (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Atreseries (Free-TV España): Descartado — <urlopen error [Errno 111] Connection refused>
 - Boing (Free-TV España): Descartado — HTTP Error 400: Bad Request
@@ -146,7 +146,7 @@ Actualizado: `2026-11-17T20:11:05+00:00`
 - Esport3 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
 - Esport3 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
 - Esport3 (IPTV-org España): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
-- À Punt (Free-TV España): Descartado — HTTP Error 400: Bad Request
+- À Punt (Free-TV España): Descartado — <urlopen error [Errno -3] Temporary failure in name resolution>
 - Aragón TV (Free-TV España): Descartado — <urlopen error [Errno -2] Name or service not known>
 - ETB 1 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC
 - ETB 2 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC
