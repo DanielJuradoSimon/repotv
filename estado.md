@@ -1,6 +1,6 @@
 # Estado de la lista
 
-Actualizado: `2026-11-18T13:04:47+00:00`
+Actualizado: `2026-11-19T13:09:16+00:00`
 
 - Canales solicitados: **62**
 - Canales con al menos una fuente: **39**
@@ -146,7 +146,7 @@ Actualizado: `2026-11-18T13:04:47+00:00`
 - Esport3 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
 - Esport3 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
 - Esport3 (IPTV-org España): Conservado por geobloqueo — HTTP Error 403: geofence:blocked
-- À Punt (Free-TV España): Descartado — <urlopen error [Errno -3] Temporary failure in name resolution>
+- À Punt (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Aragón TV (Free-TV España): Descartado — <urlopen error [Errno -2] Name or service not known>
 - ETB 1 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC
 - ETB 2 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC

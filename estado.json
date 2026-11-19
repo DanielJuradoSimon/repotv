@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-18T13:04:47+00:00",
+  "generated_at_utc": "2026-11-19T13:09:16+00:00",
   "sources": [
     {
       "name": "TDTChannels",
@@ -762,7 +762,7 @@
         "source": "Free-TV España",
         "url": "https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8",
         "status": "failed",
-        "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+        "reason": "HTTP Error 400: Bad Request"
       },
       {
         "channel": "Aragón TV",
