@@ -1,10 +1,10 @@
 # Estado de la lista
 
-Actualizado: `2026-11-21T12:40:30+00:00`
+Actualizado: `2026-11-22T12:36:52+00:00`
 
 - Canales solicitados: **62**
 - Canales con al menos una fuente: **39**
-- Fuentes totales incluidas: **83**
+- Fuentes totales incluidas: **82**
 
 ## Fuentes encontradas
 
@@ -20,7 +20,7 @@ Actualizado: `2026-11-21T12:40:30+00:00`
 - Negocios TV: 2
 - El País: 1
 - RNE para todos: 2
-- Real Madrid TV: 3
+- Real Madrid TV: 2
 - Telemadrid: 1
 - La Otra: 1
 - Canal Sur Andalucía: 3
@@ -81,30 +81,26 @@ Actualizado: `2026-11-21T12:40:30+00:00`
 ## Listas consultadas
 
 - TDTChannels: ok — 574 entradas
-- IPTV-org España: ok — 340 entradas
+- IPTV-org España: ok — 299 entradas
 - Free-TV España: ok — 48 entradas
 - Teleonline: ok — 576 entradas
 
 ## Comprobación de enlaces
 
 - Modo: hls_manifest_and_segment
-- Comprobados (manifiesto y fragmento): 59
+- Comprobados (manifiesto y fragmento): 58
 - Conservados por restricción geográfica, sin comprobar: 24
-- Descartados: 39
+- Descartados: 33
 
 - La 1 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
 - La 1 (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - La 1 (IPTV-org España): Descartado — HTTP Error 403: Forbidden
 - La 2 (IPTV-org España): Descartado — HTTP Error 404: Not Found
-- Antena 3 (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Antena 3 (Free-TV España): Descartado — <urlopen error [Errno 111] Connection refused>
 - Cuatro (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Telecinco (Free-TV España): Descartado — HTTP Error 400: Bad Request
-- laSexta (IPTV-org España): Descartado — HTTP Error 404: Not Found
-- laSexta (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - laSexta (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Teledeporte (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
-- Teledeporte (IPTV-org España): Descartado — <urlopen error [Errno -2] Name or service not known>
 - Teledeporte (Teleonline): Descartado — Cifrado DRM/no compatible con la lista VLC
 - Clan (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
 - Clan (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
@@ -112,8 +108,6 @@ Actualizado: `2026-11-21T12:40:30+00:00`
 - Energy (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Divinity (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Be Mad (Free-TV España): Descartado — HTTP Error 403: Forbidden
-- Neox (IPTV-org España): Descartado — HTTP Error 404: Not Found
-- Neox (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Neox (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Mega (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Atreseries (IPTV-org España): Descartado — HTTP Error 404: Not Found
@@ -123,6 +117,7 @@ Actualizado: `2026-11-21T12:40:30+00:00`
 - Squirrel (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - BOM Cine (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Euronews (TDTChannels): Descartado — HTTP Error 403: Restricted Content
+- Real Madrid TV (TDTChannels): Descartado — HTTP Error 404: Not Found
 - Telemadrid (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - La Otra (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Canal Sur Andalucía (Free-TV España): Descartado — HTTP Error 404: Not Found
@@ -149,7 +144,6 @@ Actualizado: `2026-11-21T12:40:30+00:00`
 - Aragón TV (Free-TV España): Descartado — <urlopen error [Errno -2] Name or service not known>
 - ETB 1 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC
 - ETB 2 (TDTChannels): Descartado — Cifrado DRM/no compatible con la lista VLC
-- Canal Extremadura (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Canal Extremadura (Teleonline): Descartado — <urlopen error [Errno -5] No address associated with hostname>
 - TV Canaria (Teleonline): Descartado — La respuesta no es un manifiesto HLS
 - IB3 (Free-TV España): Descartado — La respuesta no es un manifiesto HLS
