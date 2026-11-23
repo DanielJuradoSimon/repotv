@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-22T12:36:52+00:00",
+  "generated_at_utc": "2026-11-23T14:40:00+00:00",
   "sources": [
     {
       "name": "TDTChannels",
@@ -58,7 +58,7 @@
     "Negocios TV": 2,
     "El País": 1,
     "RNE para todos": 2,
-    "Real Madrid TV": 2,
+    "Real Madrid TV": 3,
     "Telemadrid": 1,
     "La Otra": 1,
     "Canal Sur Andalucía": 3,
@@ -86,7 +86,7 @@
     "Distrito TV": 2,
     "Sol Música": 1
   },
-  "total_stream_sources": 82,
+  "total_stream_sources": 83,
   "source_results": [
     {
       "name": "TDTChannels",
@@ -116,9 +116,9 @@
   "validation": {
     "mode": "hls_manifest_and_segment",
     "candidate_streams": 115,
-    "passed": 58,
+    "passed": 59,
     "geo_restricted": 24,
-    "failed": 33,
+    "failed": 32,
     "checks": [
       {
         "channel": "La 1",
@@ -391,7 +391,7 @@
         "source": "TDTChannels",
         "url": "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
         "status": "failed",
-        "reason": "HTTP Error 403: Restricted Content"
+        "reason": "HTTP Error 404: Not Found"
       },
       {
         "channel": "El Toro TV",
@@ -446,8 +446,8 @@
         "channel": "Real Madrid TV",
         "source": "TDTChannels",
         "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-        "status": "failed",
-        "reason": "HTTP Error 404: Not Found"
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
       },
       {
         "channel": "Real Madrid TV",
