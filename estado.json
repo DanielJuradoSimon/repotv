@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T14:40:00+00:00",
+  "generated_at_utc": "2026-11-24T14:53:45+00:00",
   "sources": [
     {
       "name": "TDTChannels",
@@ -19,7 +19,7 @@
     }
   ],
   "requested_channels": 62,
-  "available_channels": 39,
+  "available_channels": 37,
   "missing_channels": [
     "Antena 3",
     "Cuatro",
@@ -37,6 +37,8 @@
     "Boing",
     "DKISS",
     "Ten",
+    "Squirrel",
+    "BOM Cine",
     "GOL Play",
     "Euronews",
     "Aragón TV",
@@ -52,13 +54,11 @@
     "Teledeporte": 2,
     "Clan": 4,
     "TRECE": 3,
-    "Squirrel": 1,
-    "BOM Cine": 1,
     "El Toro TV": 2,
     "Negocios TV": 2,
     "El País": 1,
     "RNE para todos": 2,
-    "Real Madrid TV": 3,
+    "Real Madrid TV": 2,
     "Telemadrid": 1,
     "La Otra": 1,
     "Canal Sur Andalucía": 3,
@@ -86,7 +86,7 @@
     "Distrito TV": 2,
     "Sol Música": 1
   },
-  "total_stream_sources": 83,
+  "total_stream_sources": 80,
   "source_results": [
     {
       "name": "TDTChannels",
@@ -98,7 +98,7 @@
       "name": "IPTV-org España",
       "url": "https://iptv-org.github.io/iptv/countries/es.m3u",
       "status": "ok",
-      "entries": 299
+      "entries": 305
     },
     {
       "name": "Free-TV España",
@@ -116,9 +116,9 @@
   "validation": {
     "mode": "hls_manifest_and_segment",
     "candidate_streams": 115,
-    "passed": 59,
+    "passed": 56,
     "geo_restricted": 24,
-    "failed": 32,
+    "failed": 35,
     "checks": [
       {
         "channel": "La 1",
@@ -362,8 +362,8 @@
         "channel": "Squirrel",
         "source": "IPTV-org España",
         "url": "https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8",
-        "status": "ok",
-        "check": "hls_manifest_and_segment"
+        "status": "failed",
+        "reason": "HTTP Error 404: Not Found"
       },
       {
         "channel": "Squirrel",
@@ -376,8 +376,8 @@
         "channel": "BOM Cine",
         "source": "IPTV-org España",
         "url": "https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8",
-        "status": "ok",
-        "check": "hls_manifest_and_segment"
+        "status": "failed",
+        "reason": "HTTP Error 404: Not Found"
       },
       {
         "channel": "BOM Cine",
@@ -460,8 +460,8 @@
         "channel": "Real Madrid TV",
         "source": "IPTV-org España",
         "url": "http://90.163.85.113:8093/stream/26/index.m3u8",
-        "status": "ok",
-        "check": "hls_manifest_and_segment"
+        "status": "failed",
+        "reason": "<urlopen error timed out>"
       },
       {
         "channel": "Telemadrid",

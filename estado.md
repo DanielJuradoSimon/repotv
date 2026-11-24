@@ -1,10 +1,10 @@
 # Estado de la lista
 
-Actualizado: `2026-11-23T14:40:00+00:00`
+Actualizado: `2026-11-24T14:53:45+00:00`
 
 - Canales solicitados: **62**
-- Canales con al menos una fuente: **39**
-- Fuentes totales incluidas: **83**
+- Canales con al menos una fuente: **37**
+- Fuentes totales incluidas: **80**
 
 ## Fuentes encontradas
 
@@ -14,13 +14,11 @@ Actualizado: `2026-11-23T14:40:00+00:00`
 - Teledeporte: 2
 - Clan: 4
 - TRECE: 3
-- Squirrel: 1
-- BOM Cine: 1
 - El Toro TV: 2
 - Negocios TV: 2
 - El País: 1
 - RNE para todos: 2
-- Real Madrid TV: 3
+- Real Madrid TV: 2
 - Telemadrid: 1
 - La Otra: 1
 - Canal Sur Andalucía: 3
@@ -66,6 +64,8 @@ Actualizado: `2026-11-23T14:40:00+00:00`
 - Boing
 - DKISS
 - Ten
+- Squirrel
+- BOM Cine
 - GOL Play
 - Euronews
 - Aragón TV
@@ -81,16 +81,16 @@ Actualizado: `2026-11-23T14:40:00+00:00`
 ## Listas consultadas
 
 - TDTChannels: ok — 574 entradas
-- IPTV-org España: ok — 299 entradas
+- IPTV-org España: ok — 305 entradas
 - Free-TV España: ok — 48 entradas
 - Teleonline: ok — 576 entradas
 
 ## Comprobación de enlaces
 
 - Modo: hls_manifest_and_segment
-- Comprobados (manifiesto y fragmento): 59
+- Comprobados (manifiesto y fragmento): 56
 - Conservados por restricción geográfica, sin comprobar: 24
-- Descartados: 32
+- Descartados: 35
 
 - La 1 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
 - La 1 (IPTV-org España): Descartado — HTTP Error 404: Not Found
@@ -114,9 +114,12 @@ Actualizado: `2026-11-23T14:40:00+00:00`
 - Atreseries (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Atreseries (Free-TV España): Descartado — <urlopen error [Errno 111] Connection refused>
 - Boing (Free-TV España): Descartado — HTTP Error 400: Bad Request
+- Squirrel (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - Squirrel (Free-TV España): Descartado — HTTP Error 403: Forbidden
+- BOM Cine (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - BOM Cine (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Euronews (TDTChannels): Descartado — HTTP Error 404: Not Found
+- Real Madrid TV (IPTV-org España): Descartado — <urlopen error timed out>
 - Telemadrid (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - La Otra (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Canal Sur Andalucía (Free-TV España): Descartado — HTTP Error 404: Not Found
