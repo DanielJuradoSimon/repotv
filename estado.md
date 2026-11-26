@@ -1,10 +1,10 @@
 # Estado de la lista
 
-Actualizado: `2026-11-25T14:24:02+00:00`
+Actualizado: `2026-11-26T13:55:01+00:00`
 
 - Canales solicitados: **62**
 - Canales con al menos una fuente: **37**
-- Fuentes totales incluidas: **81**
+- Fuentes totales incluidas: **79**
 
 ## Fuentes encontradas
 
@@ -18,7 +18,7 @@ Actualizado: `2026-11-25T14:24:02+00:00`
 - Negocios TV: 2
 - El País: 1
 - RNE para todos: 2
-- Real Madrid TV: 3
+- Real Madrid TV: 1
 - Telemadrid: 1
 - La Otra: 1
 - Canal Sur Andalucía: 3
@@ -81,16 +81,16 @@ Actualizado: `2026-11-25T14:24:02+00:00`
 ## Listas consultadas
 
 - TDTChannels: ok — 574 entradas
-- IPTV-org España: ok — 305 entradas
+- IPTV-org España: ok — 308 entradas
 - Free-TV España: ok — 48 entradas
 - Teleonline: ok — 576 entradas
 
 ## Comprobación de enlaces
 
 - Modo: hls_manifest_and_segment
-- Comprobados (manifiesto y fragmento): 56
+- Comprobados (manifiesto y fragmento): 54
 - Conservados por restricción geográfica, sin comprobar: 25
-- Descartados: 34
+- Descartados: 36
 
 - La 1 (TDTChannels): Conservado por geobloqueo — HTTP Error 403: Geoblock
 - La 1 (IPTV-org España): Descartado — HTTP Error 404: Not Found
@@ -120,6 +120,8 @@ Actualizado: `2026-11-25T14:24:02+00:00`
 - BOM Cine (IPTV-org España): Descartado — HTTP Error 404: Not Found
 - BOM Cine (Free-TV España): Descartado — HTTP Error 403: Forbidden
 - Euronews (TDTChannels): Descartado — HTTP Error 404: Not Found
+- Real Madrid TV (TDTChannels): Descartado — HTTP Error 404: Not Found
+- Real Madrid TV (IPTV-org España): Descartado — <urlopen error timed out>
 - Telemadrid (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - La Otra (Free-TV España): Descartado — HTTP Error 400: Bad Request
 - Canal Sur Andalucía (Free-TV España): Descartado — HTTP Error 404: Not Found
