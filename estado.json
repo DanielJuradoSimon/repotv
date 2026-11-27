@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26T13:55:01+00:00",
+  "generated_at_utc": "2026-11-27T13:53:05+00:00",
   "sources": [
     {
       "name": "TDTChannels",
@@ -19,7 +19,7 @@
     }
   ],
   "requested_channels": 62,
-  "available_channels": 37,
+  "available_channels": 39,
   "missing_channels": [
     "Antena 3",
     "Cuatro",
@@ -37,8 +37,6 @@
     "Boing",
     "DKISS",
     "Ten",
-    "Squirrel",
-    "BOM Cine",
     "GOL Play",
     "Euronews",
     "Aragón TV",
@@ -54,11 +52,13 @@
     "Teledeporte": 2,
     "Clan": 4,
     "TRECE": 3,
+    "Squirrel": 1,
+    "BOM Cine": 1,
     "El Toro TV": 2,
     "Negocios TV": 2,
     "El País": 1,
     "RNE para todos": 2,
-    "Real Madrid TV": 1,
+    "Real Madrid TV": 3,
     "Telemadrid": 1,
     "La Otra": 1,
     "Canal Sur Andalucía": 3,
@@ -86,13 +86,13 @@
     "Distrito TV": 2,
     "Sol Música": 1
   },
-  "total_stream_sources": 79,
+  "total_stream_sources": 83,
   "source_results": [
     {
       "name": "TDTChannels",
       "url": "https://www.tdtchannels.com/lists/tv.m3u8",
       "status": "ok",
-      "entries": 574
+      "entries": 576
     },
     {
       "name": "IPTV-org España",
@@ -116,9 +116,9 @@
   "validation": {
     "mode": "hls_manifest_and_segment",
     "candidate_streams": 115,
-    "passed": 54,
+    "passed": 58,
     "geo_restricted": 25,
-    "failed": 36,
+    "failed": 32,
     "checks": [
       {
         "channel": "La 1",
@@ -133,20 +133,6 @@
         "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15619&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]",
         "status": "ok",
         "check": "hls_manifest_and_segment"
-      },
-      {
-        "channel": "La 1",
-        "source": "IPTV-org España",
-        "url": "https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd",
-        "status": "failed",
-        "reason": "HTTP Error 404: Not Found"
-      },
-      {
-        "channel": "La 1",
-        "source": "IPTV-org España",
-        "url": "http://185.47.212.25:8080/tdp_HD/index.m3u8",
-        "status": "failed",
-        "reason": "HTTP Error 403: Forbidden"
       },
       {
         "channel": "La 2",
@@ -360,6 +346,13 @@
       },
       {
         "channel": "Squirrel",
+        "source": "TDTChannels",
+        "url": "https://squirrel.cdn.plenitas.pro/squirrel-es/hls/master.m3u8",
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
+      },
+      {
+        "channel": "Squirrel",
         "source": "IPTV-org España",
         "url": "https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8",
         "status": "failed",
@@ -371,6 +364,13 @@
         "url": "https://tsw.streamingwebtv24.it:1936/inteccdn1/inteccdn1/playlist.m3u8",
         "status": "failed",
         "reason": "HTTP Error 403: Forbidden"
+      },
+      {
+        "channel": "BOM Cine",
+        "source": "TDTChannels",
+        "url": "https://squirrel.cdn.plenitas.pro/bomcine/hls/master.m3u8",
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
       },
       {
         "channel": "BOM Cine",
@@ -446,8 +446,8 @@
         "channel": "Real Madrid TV",
         "source": "TDTChannels",
         "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-        "status": "failed",
-        "reason": "HTTP Error 404: Not Found"
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
       },
       {
         "channel": "Real Madrid TV",
@@ -460,8 +460,8 @@
         "channel": "Real Madrid TV",
         "source": "IPTV-org España",
         "url": "http://90.163.85.113:8093/stream/26/index.m3u8",
-        "status": "failed",
-        "reason": "<urlopen error timed out>"
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
       },
       {
         "channel": "Telemadrid",
