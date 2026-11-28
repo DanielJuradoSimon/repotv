@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T13:53:05+00:00",
+  "generated_at_utc": "2026-11-28T13:00:13+00:00",
   "sources": [
     {
       "name": "TDTChannels",
@@ -58,7 +58,7 @@
     "Negocios TV": 2,
     "El País": 1,
     "RNE para todos": 2,
-    "Real Madrid TV": 3,
+    "Real Madrid TV": 1,
     "Telemadrid": 1,
     "La Otra": 1,
     "Canal Sur Andalucía": 3,
@@ -86,7 +86,7 @@
     "Distrito TV": 2,
     "Sol Música": 1
   },
-  "total_stream_sources": 83,
+  "total_stream_sources": 81,
   "source_results": [
     {
       "name": "TDTChannels",
@@ -98,7 +98,7 @@
       "name": "IPTV-org España",
       "url": "https://iptv-org.github.io/iptv/countries/es.m3u",
       "status": "ok",
-      "entries": 308
+      "entries": 314
     },
     {
       "name": "Free-TV España",
@@ -110,15 +110,15 @@
       "name": "Teleonline",
       "url": "https://raw.githubusercontent.com/teleonline/listas/main/tv.m3u8",
       "status": "ok",
-      "entries": 576
+      "entries": 577
     }
   ],
   "validation": {
     "mode": "hls_manifest_and_segment",
     "candidate_streams": 115,
-    "passed": 58,
-    "geo_restricted": 25,
-    "failed": 32,
+    "passed": 57,
+    "geo_restricted": 24,
+    "failed": 34,
     "checks": [
       {
         "channel": "La 1",
@@ -138,8 +138,8 @@
         "channel": "La 2",
         "source": "TDTChannels",
         "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
-        "status": "geo_restricted",
-        "reason": "HTTP Error 403: Geoblock"
+        "status": "ok",
+        "check": "hls_manifest_and_segment"
       },
       {
         "channel": "La 2",
@@ -446,8 +446,8 @@
         "channel": "Real Madrid TV",
         "source": "TDTChannels",
         "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-        "status": "ok",
-        "check": "hls_manifest_and_segment"
+        "status": "failed",
+        "reason": "HTTP Error 404: Not Found"
       },
       {
         "channel": "Real Madrid TV",
@@ -460,8 +460,8 @@
         "channel": "Real Madrid TV",
         "source": "IPTV-org España",
         "url": "http://90.163.85.113:8093/stream/26/index.m3u8",
-        "status": "ok",
-        "check": "hls_manifest_and_segment"
+        "status": "failed",
+        "reason": "<urlopen error timed out>"
       },
       {
         "channel": "Telemadrid",
